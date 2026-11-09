@@ -1,0 +1,23 @@
+{
+  "groom": "신랑이름",
+  "bride": "신부이름",
+  "groom_father": "아버지",
+  "groom_mother": "어머니",
+  "bride_father": "아버지",
+  "bride_mother": "어머니",
+  "date": "2027-05-15T12:30",
+  "venue": "OO웨딩홀",
+  "hall": "O층 OO홀",
+  "address": "서울특별시 OO구 OO로 123",
+  "subway": "O호선 OO역 O번 출구 도보 5분",
+  "bus": "OO정류장 하차 (간선 000, 지선 0000)",
+  "parking": "건물 내 지하주차장 2시간 무료",
+  "accounts_groom": [
+    { "bank": "OO은행", "number": "000-0000-0000", "holder": "신랑 신랑이름" },
+    { "bank": "OO은행", "number": "000-0000-0000", "holder": "아버지 OOO" }
+  ],
+  "accounts_bride": [
+    { "bank": "OO은행", "number": "000-0000-0000", "holder": "신부 신부이름" },
+    { "bank": "OO은행", "number": "000-0000-0000", "holder": "아버지 OOO" }
+  ]
+}
