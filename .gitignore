@@ -1,2 +1,7 @@
 info.json
 dist/
+
+# 원본 이미지 (웹용은 assets/에 있음)
+청첩장앞면.jpeg
+청첩장뒷면.jpeg
+사진원본.jpeg
