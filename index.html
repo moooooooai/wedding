@@ -19,7 +19,7 @@
 <meta name="theme-color" content="#f5efe3">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Italiana&family=Barlow:wght@500&family=Bodoni+Moda:opsz,wght@6..96,700&family=Nanum+Myeongjo:wght@400;700;800&family=Noto+Sans+KR:wght@400&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500&family=Barlow:wght@500&family=Bodoni+Moda:opsz,wght@6..96,700&family=Nanum+Myeongjo:wght@400;700;800&family=Noto+Sans+KR:wght@400&display=swap" rel="stylesheet">
 <style>
   :root {
     --paper: #f5efe3;
@@ -70,8 +70,8 @@
     container-type: size; /* 남은 공간 크기를 일러스트 크기 계산에 사용 */
   }
   .cover .names {
-    font-family: 'Italiana', serif; font-weight: 400;
-    font-size: clamp(22px, 7vw, 34px); letter-spacing: .04em; line-height: 1.2;
+    font-family: 'Cinzel', serif; font-weight: 500;
+    font-size: clamp(19px, 6.4vw, 30px); letter-spacing: .04em; line-height: 1.2;
     white-space: nowrap;
   }
   .dash { display: inline-block; width: 1.1em; height: 1px; background: currentColor; margin: 0 .45em; vertical-align: .32em; }
@@ -142,6 +142,7 @@
   /* ── 뒷면 ───────────────────────── */
   .save {
     font-family: 'Bodoni Moda', serif; font-weight: 700; font-size: 30px; letter-spacing: .03em;
+    font-variation-settings: 'opsz' 6; /* 작은 광학 크기: 가는 획을 두껍게 해서 가독성 확보 */
     line-height: 1.2; margin-bottom: 48px; color: var(--ink);
   }
   .message p { font-size: 15px; line-height: 2.1; }
@@ -198,7 +199,7 @@
 
   footer { padding: 24px 28px 72px; text-align: center; }
   footer .names {
-    font-family: 'Italiana', serif; font-size: 20px; letter-spacing: .06em; margin-top: 40px;
+    font-family: 'Cinzel', serif; font-weight: 500; font-size: 17px; letter-spacing: .06em; margin-top: 40px;
   }
 
   .toast {
